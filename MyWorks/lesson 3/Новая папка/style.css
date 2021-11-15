@@ -1,0 +1,24 @@
+body{
+    background-color: darkseagreen;
+}
+h1{
+    color:darkslateblue;
+}
+li{
+    color: blueviolet;
+}
+h2{
+    color: chocolate;
+}
+p{
+    font-size: larger;
+    font-family: Arial, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.rect{
+    height: 150px;
+    width: 300px;
+    background:dimgrey;
+}
+h3{
+    font-size: x-large;
+}

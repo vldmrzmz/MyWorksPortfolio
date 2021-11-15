@@ -1,0 +1,56 @@
+body{
+    background-color:ivory;
+}
+.panel_1{
+    width: 29%;
+    height: 20vh;
+    background-color: lightsteelblue;
+    border-radius: 25px;
+    transition: 1s;
+    display: flex;    
+    justify-content: space-between;
+}
+.panel_2{
+    width: 95%;
+    height: 20vh;
+    background-color: lightsteelblue;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rect{
+    margin-left: 20px;
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background-color:rgb(27, 106, 180);
+    animation: transfrm 3s infinite;
+    animation-direction: alternate;
+
+}
+@keyframes transfrm{
+    0%{
+        transform: skew(20deg);
+    }
+    100%{
+        transform: skew(-20deg);
+    }
+
+}
+
+
+
+
+.panel_1:hover{ 
+    width: 95%;
+}
+li{
+    margin-top: 25px;
+}
+li > p{
+    font-size: larger;
+}
+li > p:hover{
+    transform: scale(1.35);
+}

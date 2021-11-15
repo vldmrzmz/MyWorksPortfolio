@@ -1,0 +1,151 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bgContainer {
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(221, 220, 220);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formLeft {
+        height: 80%;
+        width: 25%;
+        background-color: #fff;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .headerLeft {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        color: gray;
+        font-size: 26px;
+    }
+    
+    .smLink {
+        width: 35px;
+        height: 35px;
+        border-radius: 35px;
+        color: gray;
+        border: 2px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 16px;
+        margin-left: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+    }
+    
+    .listLink {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .listLink_a {
+        text-decoration: none;
+    }
+    
+    .captionLeft {
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
+    
+    .inputRow {
+        height: 40px;
+        width: 65%;
+        background-color: rgba(227, 228, 233, 0.637);
+        border: none;
+        outline: none;
+        font-size: 22px;
+        color: grey;
+        padding: 7px;
+    }
+    
+     ::placeholder {
+        font-size: 17px;
+        color: rgb(156, 154, 154);
+    }
+    
+    .textArea {
+        height: 80px;
+        width: 65%;
+    }
+    
+    .adHelp {
+        text-decoration: underline dotted;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: grey;
+    }
+    
+    .btnLeft {
+        height: 35px;
+        width: 150px;
+        background-color: rgb(25, 160, 131);
+        color: #fff;
+        border-radius: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .btnLeft:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(90, 88, 88);
+    }
+    
+    .contact_a {
+        text-decoration: none;
+    }
+    
+    .formRight {
+        height: 80%;
+        width: 25%;
+        background-color: rgb(25, 160, 131);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .headerRight {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+    }
+    
+    .captionRight {
+        color: rgb(255, 255, 255);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .btnRight {
+        height: 27px;
+        width: 90px;
+        border: 2px solid;
+        border-color: white;
+        border-radius: 20px;
+    }
+    
+    .btnRight:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(90, 88, 88);
+        border: none;
+    }

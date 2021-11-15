@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Header*/
+
+.header {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Logo */
+
+.logo {
+    font-size: 23px;
+    font-family: OpenSans Bold;
+    font-weight: 850;
+    margin-left: 109px;
+    padding: 0;
+    margin-top: 16px;
+    color: rgb(78, 78, 78);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Navigation */
+
+.navs {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 19px;
+    padding: 25px;
+    margin-right: 121px;
+    display: flex;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    margin-right: 39px;
+    transition: color, font-size .1s linear;
+}
+
+.nav_link:hover {
+    color: rgb(17, 17, 17);
+    font-size: 20.5px;
+}
+
+.search_icon {
+    background-image: url(https://img1.freepng.ru/20180422/wbe/kisspng-magnifying-glass-computer-icons-magnifier-search-for-5adc5e4899f487.6244115615243914966306.jpg);
+    background-size: auto 19px;
+    height: 19px;
+    width: 19px;
+    margin-top: 4px;
+    margin-left: 0;
+}
+
+
+/* Intro */
+
+.intro_bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/main_background.jpeg);
+    width: 100%;
+    height: 655px;
+    background-size: cover;
+    background-position: bottom 65% right 50%;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.intro_header {
+    font-size: 57px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    margin: 20px auto;
+    margin-bottom: 0;
+}
+
+.intro_caption {
+    font-size: 23px;
+    font-family: Colibri;
+    max-height: 50px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.button_panel {
+    width: 100%;
+    height: auto;
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro_button1 {
+    display: inline-block;
+    border: 3px solid #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 18px 30px;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    vertical-align: top;
+    width: fit-content;
+    /* margin-left: 554px; */
+    /* margin-top: 72px; */
+    transition: background .2s linear;
+}
+
+.intro_button1:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.intro_button2 {
+    display: inline-block;
+    border: 3px solid #00897b;
+    background-color: #00897b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 18px 30px;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    vertical-align: top;
+    width: fit-content;
+    margin-left: 25px;
+    margin-right: 22px;
+    /* margin-top: 72px; */
+    transition: background .2s linear;
+}
+
+.intro_button2:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #00897b;
+}
+
+.arrow_icon {
+    height: 15px;
+    width: 23px;
+    margin-top: 95px;
+    background-repeat: no-repeat;
+    background-size: auto 15px;
+    background-image: url(../images/arrow_icon.png);
+}
+
+
+/* About Us */
+
+.about_us_bg {
+    width: 100%;
+    height: 655px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Header */
+
+.about_us_h {
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 117px;
+}
+
+
+/* Caption */
+
+.about_us_caption {
+    font-family: Colibri;
+    letter-spacing: .4px;
+    margin-top: 35px;
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+}
+
+
+/* Info block for "About Us" */
+
+.benefit_block {
+    height: 199px;
+    width: 253px;
+    margin: 122px 72.5px auto 72.5px;
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Panel of info blocks */
+
+.benefits_panel {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon_web {
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: auto 51px;
+    background-position: center;
+    margin: 7px;
+    margin-bottom: 0;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/149/149229.png);
+}
+
+
+/* Header of block for "About Us" */
+
+.benefit_block_h {
+    font-family: Arial;
+    letter-spacing: .3px;
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 600;
+    color: rgba(31, 31, 31, 0.932);
+}
+
+
+/*Caption of block for "About Us" */
+
+.benefit_block_c {
+    font-family: Colibri;
+    letter-spacing: .3px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: rgb(61, 61, 61);
+    text-align: center;
+}
+
+.icon_switch {
+    width: 62px;
+    height: 62px;
+    background-repeat: no-repeat;
+    background-size: auto 62px;
+    background-image: url(https://static.thenounproject.com/png/1601511-200.png);
+}
+
+.icon_think {
+    width: 62px;
+    height: 62px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto 62px;
+    background-image: url(https://img1.freepng.ru/20180319/lqe/kisspng-mental-health-body-therapy-psychotherapist-thinking-icon-png-5ab08621747850.8135864115215181134771.jpg);
+}
+
+
+/* Services */
+
+.our_services_bg {
+    height: 1395px;
+    width: 100%;
+    margin-top: 16px;
+    background-color: #e4fdf9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.serv_block_container {
+    height: 825px;
+    width: 1240px;
+    margin: 48px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.serv_block {
+    height: 410px;
+    width: 370px;
+    margin: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serv_block:hover {
+    background-color: #00897b;
+    transition: background .2s linear;
+}
+
+.serv_block:hover * {
+    color: #fff;
+    border-color: #fff;
+}
+
+.serv_block:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.515);
+}
+
+.serv_block:hover .black_phone_icon {
+    background-image: url(../images/phone_icon_white.png);
+}
+
+.black_phone_icon {
+    height: 62px;
+    width: 56px;
+    margin-top: 11%;
+    background-repeat: no-repeat;
+    background-size: auto 62px;
+    background-image: url(..//images/phone_icon_black.png);
+}
+
+#serv_block_c {
+    max-width: 270px;
+}
+
+
+/* Header for "Our Services" */
+
+.serv_h {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .3px;
+    margin-top: 0;
+    font-size: 27px;
+    font-weight: 700;
+    color: rgba(31, 31, 31, 0.932);
+}
+
+
+/* Caption for "Our Services"*/
+
+.serv_c {
+    font-family: Colibri;
+    font-size: 16px;
+    margin-top: 22px;
+    margin-bottom: 76px;
+    color: rgb(61, 61, 61);
+    text-align: center;
+}
+
+
+/* Secondary buttons for "Latest work"*/
+
+.secondary_button {
+    height: auto;
+    width: auto fit-content;
+    /* display: inline-block; */
+    border: 2px solid#00897b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 14px 30px;
+    vertical-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    transition: background .2s linear;
+}
+
+
+/* Button for "Our Services" */
+
+.our_services_button {
+    width: 145px;
+    height: 50px;
+    margin-top: 42px;
+    margin-bottom: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #000;
+    color: #000;
+}
+
+.latest_work_block nav a {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.secondary_button:hover {
+    background-color: #00897b;
+    color: #fff;
+}
+
+
+/* ---------Lasest work / Portfolio------------ */
+
+.latest_work_block {
+    height: 1350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest_work_block nav {
+    margin-top: 165px;
+}
+
+.portf_container {
+    height: 770px;
+    width: 1250px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 120px;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
+
+.portf_list_img {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portf_img {
+    height: 370px;
+    width: 370px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 14px 15px;
+}
+
+a.darker {
+    display: block
+}
+
+a.darker:hover, .portf_img:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))
+}
+
+
+/* .portf_photo1 {
+    height: 370px;
+    width: 370px;
+    background-image: url(../images/portfolio_watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.portf_photo2 {
+    height: 370px;
+    width: 370px;
+    background-image: url(../images/portfolio_pack.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.portf_photo3 {
+    height: 370px;
+    width: 370px;
+    background-image: url(../images/portfolio_underwear.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.portf_photo4 {
+    height: 370px;
+    width: 370px;
+    background-image: url(../images/portfolio_flask.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.portf_photo5 {
+    height: 370px;
+    width: 370px;
+    background-image: url(../images/portfolio_botle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.portf_photo6 {
+    height: 370px;
+    width: 370px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-image: url(../images/portfolio_bag.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
