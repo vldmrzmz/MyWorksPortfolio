@@ -1,107 +1,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
-body{
+body {
     margin: 0 auto;
+    background-color:  rgb(202, 202, 202);
 }
-.container{
+
+.container {
     height: 100vh;
     width: 1300px;
     margin: 0 auto;
-
-    background-color: rgb(247, 244, 225);
+    background-color:rgb(202, 202, 202);
 }
-.header{
+
+.header {
     height: 110px;
     width: 1300px;
     margin: 0 auto;
-
-    background-color: rgb(233, 233, 233);    
+    background-color:  rgb(202, 202, 202);
 }
+
 .headerH {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 34px;
-    
     position: relative;
     top: 10px;
-
     text-align: center;
     letter-spacing: 1px;
 }
+
 .headerC {
     margin-top: 22px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 19px;
-    
     text-align: center;
 }
-.gitAvatar{
+
+.gitAvatar {
     height: 47px;
     width: 47px;
     border-radius: 100%;
-    
     position: relative;
-    top: -70px; 
+    top: -70px;
     left: 1100px;
-
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(https://avatars.githubusercontent.com/u/92734932?s=40&v=4);
 }
-.panelH{
+
+.panelH {
     margin: 0;
     width: 100%;
-
     position: relative;
     left: 20px;
     top: 7px;
-
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 24px;
 }
-.panelOfWorks{
+
+.panelOfWorks {
     height: 440px;
     width: 100%;
     margin-bottom: 30px;
-    
     border-radius: 8px;
-    
     position: relative;
     top: 5px;
-    background: rgb(135, 151, 173);
-    
+    background: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
 }
-.workCard{
+
+.workCard {
     height: 135px;
     width: 320px;
-
-    background-color: rgb(212, 197, 216);
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
-
     margin: 0 20px 0 20px;
     box-shadow: 0 0 10px rgba(26, 25, 25, 0.479);
 }
-.cardHeader{
+
+.cardHeader {
     height: 60px;
     width: 100%;
 }
-.cardText{
+
+.cardText {
     margin: 0;
     position: relative;
     top: 5px;
-
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 18px;
 }
-.icon{
+
+.icon {
     margin: 6px;
 }
-.line{
+
+.line {
     width: 95%;
+}
+
+.btn {
+    margin-left: 6px;
+    margin-top: 6px;
+    height: 28px;
+    width: 88px;
+    border: 2px solid rgb(72, 219, 200);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 100ms linear;
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgba(202, 202, 202, 0.158);
+    border-color: rgb(23, 233, 248);
 }
